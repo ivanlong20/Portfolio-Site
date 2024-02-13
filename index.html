@@ -1,19 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Résumé - Ivan Chan</title>
-</head>
-<body>
-    <a href="./contact.html"><h1>Ivan Chan</h1></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ivan Chan</title>
+    <link rel="stylesheet" src="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .intro-text {
+        font-family: "Pacifico", cursive;
+        font-weight: 100;
+        font-size: 5rem;
+      }
+      .about-me-text {
+        font-family: "League Spartan", sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+      }
+
+      .experience-container {
+        font-family: "League Spartan", sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+      }
+
+      .education-container {
+        font-family: "League Spartan", sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+      }
+
+      ul {
+        list-style-type: none; /* Remove bullets */
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margins */
+      }
+    </style>
+  </head>
+
+  <body class="d-block h-100 w-100">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div>
+          <h3 class="float-md-start mb-0">Cover</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a
+              class="nav-link fw-bold py-1 px-2 active"
+              aria-current="page"
+              href="#"
+              >About</a
+            >
+            <a class="nav-link fw-bold py-1 px-2" href="#">Works</a>
+            <a class="nav-link fw-bold py-1 px-2" href="#">Contact</a>
+          </nav>
+        </div>
+      </header>
+    </div>
+
+    <div class="intro-container text-center bg-dark text-white py-5">
+      <section class="d-block-flex">
+        <div class="intro-text">Hallo</div>
+        <div class="intro-text">This is Ivan</div>
+        <!-- <div class="intro-text-small">Computer Science Graduate | CityU</div> -->
+      </section>
+    </div>
+
+    <div class="about-me-container pt-5 about-me-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="text-left fs-2">About Me</div>
+          </div>
+
+          <div class="col-12 fw-normal">
+            <p class="text-left">
+              A self-motivated recent graduate from CityU Computer Science
+            </p>
+            <!-- <p class="text-left">Internship Experience at HKHS & CMHK</p> -->
+            <p class="text-left">
+              Interested in Frontend Development / UI/UX Design / QA
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="experience-container py-5">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex">
+            <div class="col-6 fs-2">Work Experience</div>
+            <div class="col-6">
+              <div class="row">
+                <div class="date col-3">
+                  <div class="text-left fs-6 fw-light">Jun 2022 - Mar 2023</div>
+                </div>
+                <div class="details col-9 pr-2">
+                  <div class="text-left fs-4 fw-medium">IT Intern</div>
+                  <div class="text-left fs-5 fw-medium">
+                    Hong Kong Housing Society
+                  </div>
+
+                  <ul class="text-left mt-2">
+                    <li class="fs-6 fw-semi">
+                      Conducted Sharepoint Online migration for the HKHS
+                      intranet, including data migration, site configuration,
+                      and user training
+                    </li>
+                    <br />
+                    <li>
+                      Developed and designed web pages for HKHS websites using
+                      HTML and CSS
+                    </li>
+                    <br />
+                    <li>
+                      Designed graphics for websites with Adobe Photoshop and
+                      Illustrator
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row mt-5">
+                <div class="date col-3">
+                  <div class="text-left fs-6 fw-light">Aug 2021 - May 2022</div>
+                </div>
+                <div class="details col-9 pr-2">
+                  <div class="text-left fs-4 fw-medium">Intern</div>
+                  <div class="text-left fs-5 fw-medium">
+                    China Mobile Hong Kong
+                  </div>
+
+                  <ul class="text-left fs-6 mt-2">
+                    <li>
+                      Assisted for the TRY 2.0 (Enterprise collaboration
+                      platform) Project
+                    </li>
+                    <li>Provided user training</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="education-container py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 fs-2">Education</div>
+          <div class="col-6 p-0">
+            <div class="row">
+              <div class="date col-3">
+                <div class="text-left fs-6 fw-light">Sep 2021 - Feb 2024</div>
+              </div>
+              <div class="details col-9 pr-2">
+                <div class="text-left fs-4 fw-medium">
+                  Bachelor of Science - Computer Science
+                </div>
+                <div class="text-left fs-5 fw-medium">
+                  City University of Hong Kong
+                </div>
+                <ul class="text-left mt-2">
+                  <li>Upper Second Class Honours (2:1)</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row mt-5">
+              <div class="date col-3">
+                <div class="text-left fs-6 fw-light">Sep 2019 - Jun 2021</div>
+              </div>
+              <div class="details col-9 pr-2">
+                <div class="text-left fs-4 fw-medium">
+                  Associate's Degree - Information Technology
+                </div>
+                <div class="text-left fs-5 fw-medium">
+                  Hong Kong Community College
+                </div>
+                <ul class="text-left mt-2">
+                  <li>Distinction</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex flex-equal w-100 my-3 ps-3">
+      <div class="text-bg-dark me-3 pt-3 px-3 pt-5 px-5 text-center">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Another headline</h2>
+          <p class="lead">And an even wittier subheading.</p>
+        </div>
+        <div
+          class="bg-body-tertiary shadow-sm mx-auto"
+          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"
+        ></div>
+      </div>
+      <div class="bg-body-tertiary me-3 pt-3 px-3 pt-5 px-5 text-center">
+        <div class="my-3 p-3">
+          <h2 class="display-5">Another headline</h2>
+          <p class="lead">And an even wittier subheading.</p>
+        </div>
+        <div
+          class="bg-dark shadow-sm mx-auto"
+          style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"
+        ></div>
+      </div>
+    </div>
+
+    <div class="project-container">
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div
+          class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+        >
+          <div class="my-3 py-3">
+            <h2 class="display-5">Another headline</h2>
+            <p class="lead">And an even wittier subheading.</p>
+          </div>
+          <div
+            class="bg-body-tertiary shadow-sm mx-auto"
+            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"
+          ></div>
+        </div>
+        <div
+          class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+        >
+          <div class="my-3 p-3">
+            <h2 class="display-5">Another headline</h2>
+            <p class="lead">And an even wittier subheading.</p>
+          </div>
+          <div
+            class="bg-dark shadow-sm mx-auto"
+            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="mt-auto text-dark-100 container">
+      <p>@2024 Ivan Chan</p>
+    </footer>
+
+    <!-- <a href="./contact.html"><h1>Ivan Chan</h1></a>
     <h3>Computer Science Graduate | CityU | IT Intern at HKHS</h3>
-    <img width=400 height= 250 src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187.jpg?w=1436&h=958">
+    <img
+      width="400"
+      height="250"
+      src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187.jpg?w=1436&h=958"
+    />
     <h2>Summary</h2>
     <h3>A self-motivated recent graduate from CityU Computer Science</h3>
     <h3>Internship Experience at HKHS</h3>
     <h3>Interested in Frontend Development / UI/UX Design / QA</h3>
-    <hr/>
+    <hr />
 
     <h2>Education</h2>
     <h3>City University of Hong Kong</h3>
@@ -21,25 +274,34 @@
     <h5>Upper Second Class Honours (2:1)</h5>
     <h6>Final Year Project: Blockchain-based Logistics System</h6>
 
-    <hr/>
+    <hr />
     <h2>Work Experience</h2>
     <h3>IT Intern</h3>
     <h4>Hong Kong Housing Society</h4>
     <h5>Jun 2022 - Mar 2023</h5>
     <ul>
-        <li>Conducted Sharepoint Online migration for the HKHS intranet, including data migration, site configuration, and user training</li>
-        <li>Developed and designed web pages for HKHS websites using HTML and CSS</li>
-        <li>Designed graphics for websites with Adobe Photoshop and Illustrator </li>
+      <li>
+        Conducted Sharepoint Online migration for the HKHS intranet, including
+        data migration, site configuration, and user training
+      </li>
+      <li>
+        Developed and designed web pages for HKHS websites using HTML and CSS
+      </li>
+      <li>
+        Designed graphics for websites with Adobe Photoshop and Illustrator
+      </li>
     </ul>
-    
+
     <h3>Intern</h3>
     <h4>China Mobile Hong Kong</h4>
     <h5>Aug 2021 - May 2022</h5>
     <ul>
-        <li>Assisted for the TRY 2.0 (Enterprise collaboration platform) Project</li>
-        <li>Provided user training</li>
+      <li>
+        Assisted for the TRY 2.0 (Enterprise collaboration platform) Project
+      </li>
+      <li>Provided user training</li>
     </ul>
-    <hr/>
+    <hr />
     <h2>Skills</h2>
 
     <h3>HTML5</h3>
@@ -48,6 +310,11 @@
     <h3>Flutter</h3>
     <h3>Java</h3>
     <h3>Microsoft Office</h3>
-<footer>@2024 Ivan Chan</footer>
-</body>
+    <footer>@2024 Ivan Chan</footer> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
