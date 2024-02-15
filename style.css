@@ -40,6 +40,15 @@
     font-weight: 400;
     font-size: 1rem;
   }
+  .direct{
+    background-color: #F1F6F9;
+    color: #14274E;
+    text-decoration:none
+  }
+  .direct:hover {
+    color: #F1F6F9;
+    background-color: #14274E;
+  }
 
 
   .flex-even {
