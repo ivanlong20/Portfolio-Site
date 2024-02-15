@@ -1,3 +1,96 @@
-.intro-text {
-  font-family: 'Pacifico', cursive !important;
-}
+.name {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .navigation {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .intro-text {
+    font-family: "Pacifico", cursive;
+    font-weight: 100;
+    font-size: 6rem;
+  }
+  .about-me-text {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .experience-container {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .education-container {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .project-container {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .contact-container {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+
+  .flex-even {
+    flex: 1 1 0;
+  }
+  .project-img {
+    transition: transform 0.2s;
+  }
+  .project-img:hover {
+    transform: scale(1.2);
+  }
+  .dark-container {
+    background-color: #14274E;
+    transition: 0.5s;
+  }
+  .light-container {
+    background-color: #9BA4B4;
+    transition: 0.5s;
+  }
+  .dark-container:hover {
+    background-color: #394867;
+  }
+  .light-container:hover {
+    background-color: #394867;
+  }
+  #skill {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .pill {
+    text-align: center;
+    background-color: #14274E;
+    letter-spacing: 1px;
+    color: #f8f9fa;
+    padding: 10px 20px 7px;
+    border-radius: 50em;
+    transition: 0.5s;
+  }
+  .pill:hover {
+    background-color: #9BA4B4;
+  }
+  .bg-one {
+    background-color: #F1F6F9;
+  }
+  .bg-two {
+    background-color: #14274E;
+  }
+  .bg-three {
+    background-color: #394867;
+  }
+  .bg-four {
+    background-color: #9BA4B4;
+  }
