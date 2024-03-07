@@ -41,13 +41,14 @@
     font-size: 1rem;
   }
   .direct{
-    background-color: #F1F6F9;
-    color: #14274E;
-    text-decoration:none
+    background-color: #394867;
+    color: #F1F6F9;
+    text-decoration:none;
   }
   .direct:hover {
     color: #F1F6F9;
-    background-color: #14274E;
+    background-color: #9BA4B4;
+    border-radius: 50em;
   }
 
 
@@ -58,14 +59,14 @@
     transition: transform 0.2s;
   }
   .project-img:hover {
-    transform: scale(1.2);
+    transform: scale(1.2)
   }
   .dark-container {
     background-color: #14274E;
     transition: 0.5s;
   }
   .light-container {
-    background-color: #9BA4B4;
+    background-color: #394867;
     transition: 0.5s;
   }
   .dark-container:hover {
