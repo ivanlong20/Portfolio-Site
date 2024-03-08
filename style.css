@@ -56,10 +56,12 @@
     flex: 1 1 0;
   }
   .project-img {
+    width: 70%; 
+    border-radius: 21px 21px 0 0;
     transition: transform 0.2s;
   }
   .project-img:hover {
-    transform: scale(1.2)
+    transform: scale(1.2)!important;
   }
   .dark-container {
     background-color: #14274E;
