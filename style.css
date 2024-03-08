@@ -1,0 +1,148 @@
+.name {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .navigation {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .intro-text {
+    font-family: "Pacifico", cursive;
+    font-weight: 100;
+    font-size: 6rem;
+  }
+  .about-me-text {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .experience-container {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .education-container {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .project-container {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .contact-container {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .direct{
+    background-color: #394867;
+    color: #F1F6F9;
+    text-decoration:none;
+  }
+  .direct:hover {
+    color: #F1F6F9;
+    background-color: #9BA4B4;
+    border-radius: 50em;
+  }
+
+
+  .flex-even {
+    flex: 1 1 0;
+  }
+  .project-img {
+    transition: transform 0.2s;
+  }
+  .project-img:hover {
+    transform: scale(1.2)
+  }
+  .dark-container {
+    background-color: #14274E;
+    transition: 0.5s;
+  }
+  .light-container {
+    background-color: #394867;
+    transition: 0.5s;
+  }
+  .dark-container:hover {
+    background-color: #394867;
+  }
+  .light-container:hover {
+    background-color: #394867;
+  }
+  #skill {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .pill {
+    text-align: center;
+    background-color: #14274E;
+    letter-spacing: 1px;
+    color: #f8f9fa;
+    padding: 10px 20px 7px;
+    border-radius: 50em;
+    transition: 0.5s;
+  }
+  .pill:hover {
+    background-color: #9BA4B4;
+  }
+  .bg-one {
+    background-color: #F1F6F9;
+  }
+  .bg-two {
+    background-color: #14274E;
+  }
+  .bg-three {
+    background-color: #394867;
+  }
+  .bg-four {
+    background-color: #9BA4B4;
+  }
+
+  #return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #394867;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: #9BA4B4;
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
