@@ -15,3 +15,8 @@ $("#return-to-top").click(function () {
     100
   );
 });
+
+const currentYear = new Date().getFullYear();
+
+document.getElementById("current-year").textContent =
+  "@" + currentYear + " Ivan Chan";
